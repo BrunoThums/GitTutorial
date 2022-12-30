@@ -1,2 +1,18 @@
 # GitTutorial
 Few tricks for git
+* Use o clique com o direito do mouse e clique em “git bash here” para atalhar o uso dos comandos git
+* `git init` Cria o repositório do git na pasta atual (para listar pasta ocultas, use `ls -a`)
+* `git config --global user.email “seuEmailComAspas”` Configura o email do usuário para o git
+* `git config --global user.name “SeuNomeComAspas”` Configura o email do usuário para o git
+* `git remote add origin “linkSemAspas”` Associa o repositório online a sua pasta local, estabelecendo uma conexão
+* `git remote -v` Lista as listas de repositórios remotos cadastrados
+* `git add *` Adiciona todos conteúdos da pasta para o commit
+* `git add “nomeDoArquivo”` Adiciona um arquivo específico para o git
+* `git commit -m "tituloDoCommit"` Prepara o commit com um título (-m: mensagem)
+* `git status` Verifica o status do git (commitado, falta commitar, etc)
+* `git push origin main` Faz o upload do repositório para o git
+* `git pull origin main` Faz o download do repositório para o seu dispositivo
+* `git clone “urlSemAspas”` Faz o clone de um repositório na pasta atual
+
+- Caso der erro em seu push, utilize o -f ao lado de push, ficando assim:
+-- git push -f origin main  
