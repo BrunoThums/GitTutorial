@@ -11,3 +11,6 @@
 * `git push origin main` Faz o upload do repositório para o git
 * `git pull origin main` Faz o download do repositório para o seu dispositivo
 * `git clone “urlSemAspas”` Faz o clone de um repositório na pasta atual
+
+- Caso der erro em seu push, utilize o -f ao lado de push, ficando assim:
+-- git push -f origin main  
