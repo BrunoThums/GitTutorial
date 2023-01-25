@@ -8,11 +8,14 @@ Few tricks for git
 * `git remote -v` Lista as listas de repositórios remotos cadastrados
 * `git add *` Adiciona todos conteúdos da pasta para o commit
 * `git add “nomeDoArquivo”` Adiciona um arquivo específico para o git
-* `git commit -m "tituloDoCommit"` Prepara o commit com um título (-m: mensagem)
+* `git commit -m "tituloDoCommit"` Prepara o commit com um título (`-m`: mensagem)
 * `git status` Verifica o status do git (commitado, falta commitar, etc)
 * `git push origin main` Faz o upload do repositório para o git
 * `git pull origin main` Faz o download do repositório para o seu dispositivo
 * `git clone “urlSemAspas”` Faz o clone de um repositório na pasta atual
 
-- Caso der erro em seu push, utilize o -f ao lado de push, ficando assim:
--- git push -f origin main  
+- Caso der erro em seu push, utilize o `-f` ao lado de push, ficando assim:
+`-- git push -f origin main`  
+
+Gostou do tutorial? Marque como favorito :star:
+Quer colocar mais detalhes ou sugerir uma correção? Abra uma issue :warning:
