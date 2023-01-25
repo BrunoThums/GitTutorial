@@ -18,8 +18,8 @@ Dicas básicas para o git:
 
 ##Dica de Ouro:
 * Para simplesmente usar `git push` ou `git pull`, sem a parte do `origin main`, basta executar este código:
-** `git config --global --add --bool push.autoSetupRemote true`
-** Assim facilita os commits! Em caso de dúvidas, consulte o manual usando `git --help` e procurando por `push.autoRemoteSetup`.
+* `git config --global --add --bool push.autoSetupRemote true`
+* Assim facilita os commits! Em caso de dúvidas, consulte o manual usando `git --help` e procurando por `push.autoRemoteSetup`.
 
 <p> Gostou do tutorial? Marque como favorito :star: <p> 
 <p> Quer colocar mais detalhes ou sugerir uma correção? Abra uma issue :warning: <p> 
