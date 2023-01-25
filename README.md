@@ -1,6 +1,7 @@
 # GitTutorial
 Dicas básicas para o git:
-* Use o clique com o direito do mouse e clique em “git bash here” para atalhar o uso dos comandos git
+* Baixe e instale o git
+* Use o clique com o direito do mouse dentro de alguma pasta e clique em “git bash here” para atalhar o uso dos comandos git
 * `git init` Cria o repositório do git na pasta atual (para listar pasta ocultas, use `ls -a`)
 * `git config --global user.email “seuEmailComAspas”` Configura o email do usuário para o git
 * `git config --global user.name “SeuNomeComAspas”` Configura o email do usuário para o git
