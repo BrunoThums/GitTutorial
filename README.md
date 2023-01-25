@@ -16,7 +16,7 @@ Dicas básicas para o git:
 * `git clone “urlSemAspas”` Faz o clone de um repositório na pasta atual
 * Caso der erro em seu push, utilize o `-f` ao lado de push, ficando assim: `-- git push -f origin main` 
 
-##Dica de Ouro:
+## Dica de Ouro:
 * Para simplesmente usar `git push` ou `git pull`, sem a parte do `origin main`, basta executar este código:
 * `git config --global --add --bool push.autoSetupRemote true`
 * Assim facilita os commits! Em caso de dúvidas, consulte o manual usando `git --help` e procurando por `push.autoRemoteSetup`.
