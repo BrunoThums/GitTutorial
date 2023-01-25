@@ -14,7 +14,12 @@ Dicas básicas para o git:
 * `git push origin main` Faz o upload do repositório para o git
 * `git pull origin main` Faz o download do repositório para o seu dispositivo
 * `git clone “urlSemAspas”` Faz o clone de um repositório na pasta atual
-* Caso der erro em seu push, utilize o `-f` ao lado de push, ficando assim: `-- git push -f origin main`  
+* Caso der erro em seu push, utilize o `-f` ao lado de push, ficando assim: `-- git push -f origin main` 
+
+##Dica de Ouro:
+* Para simplesmente usar `git push` ou `git pull`, sem a parte do `origin main`, basta executar este código:
+** `git config --global --add --bool push.autoSetupRemote true`
+** Assim facilita os commits! Em caso de dúvidas, consulte o manual usando `git --help` e procurando por `push.autoRemoteSetup`.
 
 <p> Gostou do tutorial? Marque como favorito :star: <p> 
 <p> Quer colocar mais detalhes ou sugerir uma correção? Abra uma issue :warning: <p> 
