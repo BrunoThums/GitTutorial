@@ -18,4 +18,4 @@ Few tricks for git
 `-- git push -f origin main`  
 
 Gostou do tutorial? Marque como favorito :star:
-Quer colocar mais detalhes ou sugerir uma correção? Abra uma issue :warning:
+-Quer colocar mais detalhes ou sugerir uma correção? Abra uma issue :warning:
